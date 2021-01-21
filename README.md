@@ -7,7 +7,7 @@ Transform an array of elements (number, string) into an array where each item is
 
 For example:
 ```js
-numberOfDuplicates([1, 2, 1, 1, 3]) // [1, 1, 2, 2, 1]
+numberOfDuplicates([1, 2, 1, 1, 3]) // [1, 1, 2, 3, 1]
 numberOfDuplicates(['a', 'a', 'aa', 'a', 'aa']) // [1, 2, 1, 3, 2]
 ```
 
