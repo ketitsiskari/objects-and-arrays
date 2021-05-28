@@ -3,7 +3,7 @@
 ## Tasks
 
 ### Number of duplicates
-Transform an array of elements (number, string) into an array where each item is a number of element appearances before the element index in original array (including current index).
+Transform an array of elements (a number, a string) into an array where each item is represented by a number of element appearances before the element index in the original array (including the current index).
 
 For example:
 ```js
@@ -29,7 +29,7 @@ Each type costs:
 10 - symbol
 ```
 
-Implement a function for counting object strength
+Implement a function for counting object strength.
 
 For example:
 ```js
