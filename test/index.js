@@ -21,7 +21,7 @@ describe('countObjectStrength', () => {
     });
 
     it('should count object strengths for given object Array.prototype', () => {
-        assert.strictEqual(countObjectStrength(Array.prototype), 226);
+        assert.strictEqual(countObjectStrength(Array.prototype), 233);
     });
 
     it('should count object strengths for given object []', () => {
