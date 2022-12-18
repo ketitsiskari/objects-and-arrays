@@ -7,11 +7,10 @@
     "test:junit": "cross-env MOCHA_FILE=junit.xml mocha test --reporter mocha-junit-reporter",
     "test:xunit": "cross-env MOCHA_FILE=xunit.xml mocha test --reporter mocha-xunit-reporter",
     "test": "npm run test:junit",
-    "build": "echo \"Dummy build script\""
+    "build": "echo \"Dummy build script\"",
+    "test:local": "mocha"
   },
-  "engines": {
-    "node": "<=12"
-  },
+ 
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:javascript-mentoring/javascript-basics-private/task-template.git"
