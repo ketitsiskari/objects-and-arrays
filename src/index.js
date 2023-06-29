@@ -7,15 +7,14 @@ module.exports.numberOfDuplicates = function numberOfDuplicates(arr) {
     const counts = {};
     const result = [];
   
-    for (let i = 0; i < arr.length; i++) {
-      const element = arr[i];
-      if (counts.hasOwnProperty(element)) {
-        counts[element]++;
-      } else {
-        counts[element] = 1;
+    for (const element of arr) {
+        if (counts.hasOwnProperty(element)) {
+          counts[element]++;
+        } else {
+          counts[element] = 1;
+        }
+        result.push(counts[element]);
       }
-      result.push(counts[element]);
-    }
   
     return result;
 };
