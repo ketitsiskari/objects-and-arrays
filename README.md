@@ -34,7 +34,7 @@ Implement a function for counting object strength.
 For example:
 ```js
 countObjectStrength(Array) // 31 (2 + 3 + 5 + 7 + 7 + 7)
-countObjectStrength(Array.prototype) // 226 (2 + 7 * 32)
+countObjectStrength(Array.prototype) // 247 (2 + 7 * 32)
 countObjectStrength([]) // 2
 countObjectStrength({some: 'value'}) // 3
 ```
